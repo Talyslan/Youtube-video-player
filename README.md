@@ -13,7 +13,7 @@
 ## 📌 Como ver
 
 O projeto está hospedado no próprio GithubPages:
-[Youtube - Player de vídeo]()
+[Youtube - Player de vídeo](https://yt-player-clone.vercel.app/)
 
 
 ## 🚀 Technologies Used
