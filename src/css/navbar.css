@@ -1,22 +1,59 @@
-header {
-    padding: 0 1em;
-}
-
-header, nav {
+header, 
+nav {
     width: 100%;
 }
 
 header, 
 nav,
 nav .menu-and-logo,
+nav .search-bar,
 nav .buttons-config {
     display: flex;
+    align-items: center;
 }
 
 nav {
     justify-content: space-between;
+    padding: .4em 1em;
+}
+
+/* Menu and Logo */
+nav .menu-and-logo {
+    gap: 1em;
 }
 
 nav .menu-and-logo .logo-youtube {
-    width: 8em;
+    width: 4.8em;
+}
+
+/* Search Bar */
+nav .search-bar img {
+    width: 1em;
+    filter: invert();
+}
+
+nav .search-bar label {
+    border: 2px solid var(--gray-light);
+    padding: .4em 1em;
+    border-radius: 2em;
+}
+
+nav .search-bar label input {
+    width: 250px;
+    color: var(--white);
+}
+
+nav .search-bar label span {
+    position: absolute;
+    z-index: 1;
+    cursor: text;
+    color: var(--gray);
+}
+
+nav .search-bar label > button {
+    background: gray;
+}
+
+.search-bar > img {
+    background: var(--gray-light);
 }

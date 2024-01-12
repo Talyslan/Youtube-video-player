@@ -7,10 +7,24 @@
 
 :root {
     --bg: #0f0f0f;
-    --letter: #FFFFFF;
+    --white: #FFFFFF;
+    --gray-light: #707070;
+    --gray: #262626;
 }
 
 body {
     background: var(--bg);
-    color: var(--letter);
+    color: var(--white);
+    height: 100vh;
+}
+
+input,
+button {
+    border: none;
+    background: none;
+}
+
+input:focus,
+button:focus {
+    outline: none;
 }
